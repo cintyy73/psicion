@@ -1,0 +1,23 @@
+.back{
+    background-image: url();
+    background-size: cover;
+    width: 100px;
+    height: 100vh;
+}
+.gato{
+ background-image: url(https://i.imgur.com/jlXddtW.jpg);
+ background-repeat: no-repeat;
+ background-size: contain;
+height: 400px;
+width: 400px;
+}
+@media(max-width: 900px){
+    .back{
+        background-image: url(
+        https://i.imgur.com/iWeHgvh.jpg
+        );
+    }
+    .gato{
+        background-image: url(https://i.imgur.com/doS5hH8.jpg );
+    }
+}
